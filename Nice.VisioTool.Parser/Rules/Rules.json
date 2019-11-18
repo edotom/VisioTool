@@ -1,0 +1,89 @@
+﻿{
+  "shapes": [
+    {
+      "id": "1",
+      "type": "Start",
+      "shouldHave": [
+        {
+          "type": "connector",
+          "direction": "in",
+          "cardinality": "0"
+        },
+        {
+          "type": "connector",
+          "direction": "out",
+          "cardinality": "1..*"
+        }
+      ],
+      "relationship": "conjunctive"
+    },
+    {
+      "id": "2",
+      "type": "End",
+      "shouldHave": [
+        {
+          "type": "connector",
+          "direction": "in",
+          "cardinality": "1..*"
+        },
+        {
+          "type": "connector",
+          "direction": "out",
+          "cardinality": "0"
+        }
+      ],
+      "relationship": "conjunctive"
+    },
+    {
+      "id": "3",
+      "type": "Process",
+      "shouldHave": [
+        {
+          "type": "connector",
+          "direction": "in",
+          "cardinality": "1"
+        },
+        {
+          "type": "connector",
+          "direction": "out",
+          "cardinality": "1"
+        }
+      ],
+      "relationship": "conjunctive"
+    },
+    {
+      "id": "4",
+      "type": "Decision",
+      "shouldHave": [
+        {
+          "type": "connector",
+          "direction": "in",
+          "cardinality": "1"
+        },
+        {
+          "type": "connector",
+          "direction": "out",
+          "cardinality": "1..*"
+        }
+      ],
+      "relationship": "conjunctive"
+    },
+    {
+      "id": "5",
+      "type": "Subprocess",
+      "shouldHave": [
+        {
+          "type": "connector",
+          "direction": "in",
+          "cardinality": "1"
+        },
+        {
+          "type": "connector",
+          "direction": "out",
+          "cardinality": "1"
+        }
+      ],
+      "relationship": "conjunctive"
+    }  
+  ]
+}
