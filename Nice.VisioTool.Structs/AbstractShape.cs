@@ -6,7 +6,7 @@ namespace Nice.VisioTool.Structs
     public class AbstractShape : IAbstractShape
     {
         private ICollection<string> _connectedTo;
-
+        public string PageName { get; set; }
         public int UniqueID { get; set; }
         public string Name { get; set; }
         public ICollection<string> ConnectedFrom { get; set; }
@@ -15,6 +15,7 @@ namespace Nice.VisioTool.Structs
 
         public AbstractShape()
         {
+            PageName = String.Empty;
             UniqueID = 0;
             Name = String.Empty;
             Type = String.Empty;
