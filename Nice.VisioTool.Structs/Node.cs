@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Office.Interop.Visio;
 
-namespace Demo.Struct
+namespace Nice.VisioTool.Structs
 {
     public class Node : INode
     {

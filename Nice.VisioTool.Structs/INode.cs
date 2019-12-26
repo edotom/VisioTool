@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.Struct
+namespace Nice.VisioTool.Structs
 {
     public interface INode : ITree
     {

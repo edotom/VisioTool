@@ -51,6 +51,7 @@
     <Compile Include="IShapeTree.cs" />
     <Compile Include="ITree.cs" />
     <Compile Include="Node.cs" />
+    <Compile Include="Tree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

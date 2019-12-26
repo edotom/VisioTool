@@ -51,7 +51,7 @@ namespace Demo
                 GetAllPages(vsoDoc);
                 // Add the start shape to the shapeList so that we don't crawl it again.
                 shapeList = new Dictionary<int, string>();
-
+                
 
                 // Make the first call to GetConnectedShapes.
                 //GetConnectedShapes(_vsoPage.Shapes[1]);
