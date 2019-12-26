@@ -189,7 +189,7 @@ namespace Demo
         {
             foreach (Page InPage in vsoDoc.Pages)
             {
-
+                new ChangeShape().DemoChangeShape(InPage);
                 new WalkingConnections().ShowPageConnections(InPage);
                 //Console.WriteLine(string.Format("Page is:{0} and ID is : {1}", InPage.Name, InPage.ID));//cheched working
                 foreach (Shape InShape in InPage.Shapes)
